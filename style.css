@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body{
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+
+.container{
+    width: 1200px;
+    height: 800px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgba(33, 32, 32, 0.649);
+    padding: 70px;
+}
+
+div.logo > img{
+    max-width: 300px;
+    max-height: 200px;
+}
+
+header{
+    text-align: center;
+    color: lime;
+}
+
+.contenitorebottoni{
+    position: relative;
+    background-color: lime;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.bottoni{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.testo{
+    margin-top: 20px;
+    color: white;
+}
+
+.carica{
+    height: 30px;
+}
+
+.carica.gialla{
+    background-color: yellow;
+    width: 250px;
+}
+
+.carica.verde{
+    background-color: rgb(17, 218, 17);
+    width: 400px;
+}
+
+.carica.rossa{
+    background-color: red;
+    width: 100px;
+}
+
+div.container, div.carica{
+    border-radius: 10px 10px 10px 10px;
+}
